@@ -7,7 +7,7 @@ from linebot import LineBotApi, WebhookHandler
 from linebot.models import TextSendMessage
 from linebot.exceptions import InvalidSignatureError
 
-from .read_fpl_data import get_match_deadlines, read_json_file
+from utils.read_fpl_data import get_match_deadlines, read_json_file
 
 load_dotenv()
 
