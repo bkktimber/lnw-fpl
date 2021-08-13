@@ -66,5 +66,5 @@ def push_message(message_body=''):
     line_bot_api.push_message(id, text_message)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
 

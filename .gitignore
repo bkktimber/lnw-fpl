@@ -188,3 +188,6 @@ cython_debug/
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,python,macos
+
+# custom ignore files
+user_id_list.txt
